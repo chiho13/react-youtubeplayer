@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/chiho13/react-youtubeplayer"
+    "url": "git+ssh://git@github.com/chiho13/react-youtubeplayer.git"
   },
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
