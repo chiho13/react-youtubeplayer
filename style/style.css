@@ -24,9 +24,7 @@ body {
 .video-item img {
   max-width: 64px;
 }
-.video-detail {
-  padding-top: 15px;
-}
+
 .video-detail .details {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -50,6 +48,7 @@ outline:none;
     border-image-slice: 1;
 }
 
+
 .side-card, .main-card {
   position: relative;
   display: block;
@@ -61,18 +60,21 @@ outline:none;
   border-radius: 0;
 }
 
+.main-card {
+  flex-basis: 60%;
+}
+
 .side-card {
-
+  display: flex;
+  overflow-x: auto; 
   padding: 1rem 0.75rem;
-  width: 32%;
-  margin-left: 1.33333%;
-
+  width: 100%;
 }
 
 .list-group-item {
   border:none;
   border-radius:0;
-  width:100%;
+  width:200px;
 }
 
 .list-group-item:hover {
@@ -93,6 +95,7 @@ outline:none;
 .media-heading {
   font-size: 0.8rem;
   font-weight:500;
+  padding-top: 10px;
 }
 
 @media only screen and (max-width: 768px){

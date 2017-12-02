@@ -13,7 +13,7 @@ const VideoList = (props) => {
 
 
   return (
-    <ul className="side-card col-md-4 ">
+    <ul className="side-card">
       {videoItems}
     </ul>
   );
